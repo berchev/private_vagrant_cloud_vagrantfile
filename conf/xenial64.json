@@ -1,0 +1,28 @@
+{
+  "name": "vagrant/xenial64",
+  "description": "This box contains Ubuntu 16.04 LTS 64-bit.",
+  "versions": [
+    {
+      "version": "0.1",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "url": "http://localhost:8080/vagrant/xenial64/boxes/xenial64_0.1.box",
+          "checksum_type": "sha1",
+          "checksum": "da4bff540d96784dca9d504bd93e2dc95d0fa03d"
+        }
+      ]
+    },
+    {
+      "version": "0.2",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "url": "http://localhost:8080/vagrant/xenial64/boxes/xenial64_0.2.box",
+          "checksum_type": "sha1",
+          "checksum": "351c981d452d50832ba40907ebd1cff23b9ee2b3"
+        }
+      ]
+    }
+  ]
+}
